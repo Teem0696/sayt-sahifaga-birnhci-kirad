@@ -1,0 +1,39 @@
+@media screen and(max-width:900px){
+    .watch.col-md-6{
+        margin-bottom: inherit;
+    }
+}
+.colo{
+    border-top: 2px solid rgb(39, 134, 20);
+    border-bottom: 5px solid rgb(27, 134, 17);
+    border-left:  3px solid darkgreen;
+    border-right: 3px solid darkgreen;
+    background-color: wheat;
+    padding-top: 5px;
+     
+    padding-bottom: 3px;
+     margin-left: 20%;
+     margin-right: 20%;
+    
+}
+
+/*2 qism*/
+
+.showcases{
+    background: url(./mountains.jpg) no-repeat center / cover;
+    height: 100vh;
+    position: relative;
+    
+}
+.overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(78, 127, 192, 0.6);
+}
+
+.showcases .container.row{
+    height: 100%;
+}
